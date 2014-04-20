@@ -16,6 +16,7 @@ nav {
     li {
       display: table-cell;
       width: (100% / $nav-items);
+      text-align: center;
     }
   }
 }

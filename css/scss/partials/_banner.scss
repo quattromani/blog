@@ -1,0 +1,28 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Banner -- Version: 0.4.0
+   ========================================================================== */
+
+header {
+  @include padding(2em,0);
+  background: url(../images/control_room.jpg);
+  background-size: cover;
+  background-position: 0 center;
+  @include bp(bp-small) {
+    @include padding(1em,0);
+  }
+}
+
+.headshot {
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    @include bp(bp-small) {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

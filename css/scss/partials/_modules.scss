@@ -15,6 +15,22 @@
   overflow: auto;
 }
 
+.page {
+  background: rgba(0,0,0,.1);
+}
+
+.more {
+  display: table;
+  @include margin(0,auto);
+  @include padding(.5em,1em);
+  border: 1px solid $color-white;
+  a {
+    color: $color-white;
+    font-weight: 300;
+    border-bottom: none;
+  }
+}
+
 hr {
   @include margin($margin,0);
   border: 0;
