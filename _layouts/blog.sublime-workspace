@@ -76,6 +76,36 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/blog/_includes/header.html",
+		"/Users/Q/Sites/blog/_includes/footer.html",
+		"/Users/Q/Sites/blog/css/main.min.css",
+		"/Users/Q/Sites/blog/Gruntfile.js",
+		"/Users/Q/Sites/blog/package.json",
+		"/Users/Q/Sites/blog/css/scss/partials/_images.scss",
+		"/Users/Q/Sites/blog/css/main.css",
+		"/Users/Q/Sites/blog/index.html",
+		"/Users/Q/Sites/blog/css/scss/partials/_buttons.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_colors.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_forms.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_helpers.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_jumpTo.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_layout.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_lists.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_modules.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_nav.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_pagination.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_print.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_prototype.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_scrollTo.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_styleguide.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_typography.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_videos.scss",
+		"/Users/Q/Sites/blog/css/scss/theme/_base-theme.scss",
+		"/Users/Q/Sites/blog/css/scss/theme/_buttons-theme.scss",
+		"/Users/Q/Sites/blog/css/scss/theme/_nav-theme.scss",
+		"/Users/Q/Sites/blog/css/scss/main.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_tables.scss",
+		"/Users/Q/Sites/blog/_config.yml",
 		"/Users/Q/Sites/blog/_layouts/default.html",
 		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/includes/variables/page_variables.php",
 		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/index.php",
@@ -96,7 +126,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -110,6 +140,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"=\"/",
+			"{{ site.baseurl }}",
+			"js",
 			"skills"
 		],
 		"highlight": true,
@@ -175,7 +208,7 @@
 	"project": "blog.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
