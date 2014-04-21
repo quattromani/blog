@@ -20,6 +20,7 @@ header {
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    @include transition;
     @include bp(bp-small) {
       width: 100px;
       height: 100px;

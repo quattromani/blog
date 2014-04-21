@@ -11,7 +11,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 307.0,
 		"selected_items":
 		[
 			[
@@ -55,7 +55,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 601.0
+		"width": 655.0
 	},
 	"console":
 	{
@@ -76,14 +76,27 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/blog/_includes/nav.html",
+		"/Users/Q/Sites/blog/css/scss/partials/_typography.scss",
+		"/Users/Q/Sites/blog/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_accessibility.scss",
+		"/Users/Q/Sites/blog/css/scss/partials/_banner.scss",
+		"/Users/Q/Sites/blog/_includes/banner.html",
 		"/Users/Q/Sites/blog/_includes/header.html",
 		"/Users/Q/Sites/blog/_includes/footer.html",
+		"/Users/Q/Sites/blog/css/scss/partials/_nav.scss",
+		"/Users/Q/Sites/blog/css/scss/main.scss",
+		"/Users/Q/Sites/blog/_layouts/default.html",
+		"/Users/Q/Sites/blog/index.html",
+		"/Users/Q/Sites/blog/css/scss/partials/_modules.scss",
+		"/Users/Q/Sites/blog/css/scss/theme/_base-theme.scss",
+		"/Users/Q/Sites/blog/_posts/2014-04-19-lorem.markdown",
+		"/Users/Q/Sites/blog/_posts/2014-04-18-welcome-to-jekyll.markdown",
 		"/Users/Q/Sites/blog/css/main.min.css",
 		"/Users/Q/Sites/blog/Gruntfile.js",
 		"/Users/Q/Sites/blog/package.json",
 		"/Users/Q/Sites/blog/css/scss/partials/_images.scss",
 		"/Users/Q/Sites/blog/css/main.css",
-		"/Users/Q/Sites/blog/index.html",
 		"/Users/Q/Sites/blog/css/scss/partials/_buttons.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_colors.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_forms.scss",
@@ -91,22 +104,16 @@
 		"/Users/Q/Sites/blog/css/scss/partials/_jumpTo.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_layout.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_lists.scss",
-		"/Users/Q/Sites/blog/css/scss/partials/_modules.scss",
-		"/Users/Q/Sites/blog/css/scss/partials/_nav.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_pagination.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_print.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_scrollTo.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_styleguide.scss",
-		"/Users/Q/Sites/blog/css/scss/partials/_typography.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_videos.scss",
-		"/Users/Q/Sites/blog/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/blog/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/blog/css/scss/theme/_nav-theme.scss",
-		"/Users/Q/Sites/blog/css/scss/main.scss",
 		"/Users/Q/Sites/blog/css/scss/partials/_tables.scss",
 		"/Users/Q/Sites/blog/_config.yml",
-		"/Users/Q/Sites/blog/_layouts/default.html",
 		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/includes/variables/page_variables.php",
 		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/index.php",
 		"/Users/Q/Sites/maxquattromani/sandbox/teser/content.php",
@@ -140,6 +147,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"trans",
 			"=\"/",
 			"{{ site.baseurl }}",
 			"js",
@@ -172,7 +180,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -197,6 +205,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0

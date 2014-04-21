@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "homepage": "http://quattromani.github.io/blog",
+  "authors": [
+    "quattromani <max@maxquattromani.com>"
+  ],
+  "description": "the personal blog of max quattromani",
+  "keywords": [
+    "front-end",
+    "development",
+    "responsive",
+    "web",
+    "design",
+    "html",
+    "css",
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

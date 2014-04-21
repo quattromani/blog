@@ -4,16 +4,24 @@ title: Blog
 ---
 
 <div id="home">
-  <ul >
-  {% for post in site.posts limit 4 %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-      {{ post.content | strip_html | truncatewords:75}}<br>
-          <a href="{{ post.url }}">Read more...</a><br><br>
-  {% endfor %}
-</ul>
+	<ul >
+		{% for post in site.posts limit 4 %}
+		<li class="post_title">{{ post.title }}</li>
+		<li>{{ post.date | date_to_string }}</li>
+		<hr>
+		<li>
+			{{ post.content | strip_html | truncatewords:75}}<br>
+		</li>
+		<li>
+			<div class="more">
+				<a href="{{ post.url }}">Read more...</a>
+			</div>
+			{% endfor %}
+		</li>
+	</ul>
 
-<div class="more">
-	<a href="">More</a>
-</div>
+	<div class="more">
+		<a href="">More</a>
+	</div>
 
 </div>

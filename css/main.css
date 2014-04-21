@@ -71,7 +71,7 @@ body {
    ========================================================================== */
 .container {
   display: block;
-  max-width: 41.875em;
+  max-width: 43.75em;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -577,7 +577,12 @@ header {
 .headshot img {
   width: 200px;
   height: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
   @media (max-width: 40em) {
     .headshot img {
       width: 100px;
@@ -785,7 +790,6 @@ a {
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
-  border-bottom: 1px dotted;
   background: transparent;
   vertical-align: baseline;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
@@ -868,10 +872,22 @@ p, .p {
   text-transform: capitalize; }
 
 blockquote {
-  border-left: 3px solid #cccccc;
-  color: #cccccc;
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   font-style: italic;
+  font-weight: 700;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
   padding-left: 1em; }
+  blockquote p {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 18px;
+    font-size: 1.8rem; }
 
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
@@ -1821,24 +1837,25 @@ th, td {
   background-clip: padding-box;
   overflow: auto; }
 
-.page {
-  background: rgba(0, 0, 0, 0.1); }
-
 .more {
   display: table;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
-  margin-left: auto;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  border: 1px solid white; }
+  margin-left: auto; }
   .more a {
-    color: white;
-    font-weight: 300;
-    border-bottom: none; }
+    padding-top: 0.675em;
+    padding-right: 1em;
+    padding-bottom: 0.675em;
+    padding-left: 1em;
+    border: 1px solid #333333;
+    color: #333333;
+    font-weight: 300; }
+
+.post_title {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-weight: 100; }
 
 hr {
   margin-top: 1em;

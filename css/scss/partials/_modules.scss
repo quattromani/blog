@@ -15,20 +15,20 @@
   overflow: auto;
 }
 
-.page {
-  background: rgba(0,0,0,.1);
-}
-
 .more {
   display: table;
   @include margin(0,auto);
-  @include padding(.5em,1em);
-  border: 1px solid $color-white;
   a {
-    color: $color-white;
+    @include padding(.675em,1em);
+    border: 1px solid $text;
+    color: $text;
     font-weight: 300;
-    border-bottom: none;
   }
+}
+
+.post_title {
+  @include font-size(24);
+  font-weight: 100;
 }
 
 hr {
